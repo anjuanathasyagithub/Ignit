@@ -1,0 +1,76 @@
+body{
+    margin-left: 170px;
+    margin-right: 200px;
+    margin-top: 46px;
+}
+.search{
+    float: right;
+    margin-top: 28px;
+}
+input{
+    padding: 10px 20px;
+}
+button{
+    padding: 12px 20px;
+    background-color: rgb(42,41,41);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: orange;
+}
+ul{
+  
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: black;
+    color: white;
+    
+}
+li{
+    
+    float: left;
+    
+}
+li a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+li a:hover {
+background-color: orange;
+}
+.container {
+position: relative;
+text-align: center;
+color: white;
+}
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+}
+.grid-container {
+    display: grid;
+    column-gap: 70px;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: space-evenly;
+    padding: 30px;
+    
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
